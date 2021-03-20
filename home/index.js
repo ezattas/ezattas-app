@@ -1,8 +1,10 @@
+// efeito de clique
 const footer = document.querySelectorAll('footer');
 const header = document.querySelectorAll('header');
 const img = document.querySelectorAll('img');
+const h1 = document.querySelectorAll('h1');
 const div = document.querySelectorAll('div');
-const matriz = [footer, header, img, div];
+const matriz = [footer, header, img, div, h1];
 for(var i = 0; i < matriz.length; i++){
     matriz[i].forEach(btn => {
         btn.addEventListener('click', function(e){
@@ -17,4 +19,16 @@ for(var i = 0; i < matriz.length; i++){
             }, 1000);
         })
     })
+}
+
+var menu = document.getElementById("menu-btn");
+var i = false;
+function cliqueMenu(){
+    if(i == true){
+        menu.src = "../svg/menu-open.svg";
+        i = false;
+    }else{
+        menu.src = "../svg/menu-close.svg";
+        i = true;
+    }
 }
