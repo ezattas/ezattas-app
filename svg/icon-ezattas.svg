@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="icon-ezattas.svg"
+   version="1.1"
+   viewBox="0 0 1033.99 1034"
+   data-name="Camada 1"
+   id="Camada_1">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="Camada_1"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:cy="517"
+     inkscape:cx="516.995"
+     inkscape:zoom="0.80270793"
+     showgrid="false"
+     id="namedview17"
+     inkscape:window-height="1001"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#000;}.cls-2{fill:#fff;}</style>
+  </defs>
+  <title
+     id="title6">Sem título-2</title>
+  <ellipse
+     id="ellipse10"
+     transform="translate(-476.15 123.39) rotate(-10.05)"
+     ry="114.89"
+     rx="227.14"
+     cy="261.72"
+     cx="815.96"
+     class="cls-2" />
+  <path
+     id="path12"
+     transform="translate(-443 -23)"
+     d="M1156.42,540c123.49-123,204-237.36,161.76-289.67C1263.4,182.47,1072.28,285,874,445.08c-39.62,32-77.18,63.86-110.44,94.92-123.49,123-204,237.36-161.76,289.67C656.6,897.53,847.72,795,1046,634.92c39.62-32,76.53-63.86,109.79-94.91"
+     class="cls-2" />
+  <ellipse
+     id="ellipse14"
+     transform="translate(-568.85 182.2) rotate(-10.05)"
+     ry="114.89"
+     rx="227.14"
+     cy="818.28"
+     cx="1104.04"
+     class="cls-2" />
+</svg>
