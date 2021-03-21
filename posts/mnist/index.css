@@ -1,18 +1,30 @@
 /*configurações padrão*/
 @font-face {font-family: Ubuntu; src: url(../../fonts/ubuntu.ttf)}
-*{margin: 0; padding: 0;}
+*{margin: 0; padding: 0; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
 body{background: #000; color: #FFF;}
 section{display: block;}
-header{width: 100%;height: 60px; background: transparent; position: fixed; top: 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222; overflow: hidden;}
+header{width: 100%;height: 60px; background: #000; position: fixed; top: 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222; overflow: hidden; z-index: 10;}
+div#shadow-header{position: absolute; width: 100%; height: 60px; top: 0; background: transparent}
 nav{background: transparent; overflow: hidden;}
-footer{width: 100%; height: 50px; background: transparent; position: fixed; bottom: 0; display: flex; justify-content: space-around; align-items: center; border-top: 1px solid #222; overflow: hidden;}
+footer{width: 100%; height: 50px; background: #000; position: fixed; bottom: 0; display: flex; justify-content: space-around; align-items: center; border-top: 1px solid #222; overflow: hidden; z-index: 10;}
+div#shadow-footer{position: absolute; width: 100%; height: 50px; margin-bottom: 0; background: #666}
 div.btn{width: 30px; height: 30px; background: transparent;}
 div#label{width: calc(100% - 70px); height: 50px; margin-left: 15px; text-align: left; background: transparent;}
-h1{font-family: Ubuntu; font-size: 20px; line-height: 50px;}
-div#menu-bar{width: 50px; height: 50px; background: transparent; position: relative; margin-right: 10px;}
+h1{font-family: Ubuntu; font-size: 17px; line-height: 50px;}
+div#menu-bar{width: 50px; height: 50px; background: transparent; position: relative; margin-right: 10px; margin-top: 5px;}
 img{width: 100%; overflow: hidden;}
+section.section-content{width: 100%; height: 700px; top: 100px; display: block;}
+div.box-content{width: 100%; height: 50%; background: transparent;}
 /*efeito de clique*/
 span{position: absolute; background-color: #222; transform: translate(-50%, -50%); pointer-events: none; border-radius: 50%; animation: animate 1s linear infinite;}
 @keyframes animate{
     0%{width: 0px; height: 0px; opacity: 0.5}
     100%{width: 500px; height: 500px; opacity: 0}}
+/*RESPONSABILIDADE*/
+@media only screen and (min-device-width: 500px){
+    section.section-content{display: flex;}
+    div.box-content{width: 50%; height: 100%;}
+}
+/*SCROLL BAR*/
+::-webkit-scrollbar{width: 7px; background: #111}
+::-webkit-scrollbar-thumb{width: 7px; background: #222} 
