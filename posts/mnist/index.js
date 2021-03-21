@@ -25,14 +25,11 @@ var menu = document.getElementById("menu-btn");
 var i = false;
 function cliqueMenu(){
     if(i == true){
-        menu.src = "../svg/menu-open.svg";
+        menu.src = "../../svg/menu-open.svg";
         i = false;
     }else{
-        menu.src = "../svg/menu-close.svg";
+        menu.src = "../../svg/menu-close.svg";
         i = true;
     }
 }
-// ABRIR LINK
-function openLink(key){
-    window.location.href = "../posts/mnist";
-}
+//
