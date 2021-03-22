@@ -7,10 +7,10 @@ header{width: 100%;height: 60px; background: transparent; position: fixed; top: 
 nav{background: transparent; overflow: hidden;}
 footer{width: 100%; height: 50px; background: transparent; position: fixed; bottom: 0; display: flex; justify-content: space-around; align-items: center; border-top: 1px solid #222; overflow: hidden;}
 div.btn{width: 30px; height: 30px; background: transparent;}
-div#label{width: 200px; height: 50px; margin-left: 0px; text-align: center;}
-h1{font-family: Ubuntu; font-size: 20px; line-height: 50px;}
+div#label{width: 200px; height: 50px; margin-left: 10px; text-align: center;}
+h1{font-family: Consolas; font-size: 20px; line-height: 50px;}
 b{color: #3850B0}
-div#menu-bar{width: 50px; height: 50px; background: transparent; position: relative; margin-right: 10px;}
+div#menu-bar{width: 50px; height: 50px; background: transparent; position: relative; margin-right: 10px; margin-top: 5px;}
 img{width: 100%; overflow: hidden;}
 /*efeito de clique*/
 span{position: absolute; background-color: #222; transform: translate(-50%, -50%); pointer-events: none; border-radius: 50%; animation: animate 1s linear infinite;}
