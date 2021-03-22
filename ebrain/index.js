@@ -1,10 +1,7 @@
 // EFEITOS DE CLIQUE
 const footer = document.querySelectorAll('footer');
 const header = document.querySelectorAll('header');
-const img = document.querySelectorAll('img');
-const h1 = document.querySelectorAll('h1');
-const div = document.querySelectorAll('div');
-const matriz = [footer, header, img, div, h1];
+const matriz = [footer, header];
 for(var i = 0; i < matriz.length; i++){
     matriz[i].forEach(btn => {
         btn.addEventListener('click', function(e){
@@ -34,5 +31,5 @@ function cliqueMenu(){
 }
 // ABRIR LINK
 function openLink(key){
-    window.location.href = "../posts/mnist";
+    window.location.href = "../" + key + '/';
 }
