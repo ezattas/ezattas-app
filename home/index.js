@@ -33,3 +33,8 @@ function cliqueMenu(){
 function openLink(key){
     window.location.href = "../" + key + '/';
 }
+// CLOSE PRELOADER
+function closePreloader(){
+    var preloader = document.getElementById('pre-loader');
+    preloader.style.display = 'none';
+}
