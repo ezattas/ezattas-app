@@ -1,11 +1,11 @@
 @font-face {font-family: Ubuntu; src: url(../fonts/ubuntu.ttf)}
 @font-face {font-family: Consola; src: url(../fonts/consolas.ttf)}
-*{margin: 0; padding: 0; user-select: none; outline: none;}
+*{margin: 0; padding: 0; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
 body{background: #000; color: #FFF; font-family: Consola; -ms-overflow-style: none;}
 section{display: block;}
-header{width: 100%;height: 60px; background: transparent; position: fixed; top: 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #151515; overflow: hidden;}
+header{width: 100%;height: 60px; background: #000; position: fixed; top: 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #0A0A0A; overflow: hidden;}
 nav{background: transparent; overflow: hidden;}
-footer{width: 100%; height: 50px; background: transparent; position: fixed; bottom: 0; display: flex; justify-content: space-around; align-items: center; border-top: 1px solid #151515; overflow: hidden;}
+footer{width: 100%; height: 50px; background: #000; position: fixed; bottom: 0; display: flex; justify-content: space-around; align-items: center; border-top: 1px solid #0A0A0A; overflow: hidden;}
 div.btn{width: 30px; height: 30px; background: transparent;}
 div#label{width: 200px; height: 50px; margin-left: 10px; text-align: left; position: absolute; left: 0;}
 h1{font-size: 20px; line-height: 50px; margin-left: 5px;}
@@ -20,5 +20,5 @@ span{position: absolute; background-color: #222; transform: translate(-50%, -50%
 div#first-box{width: 100%; height: 1000px; background: #000;}
 div#second-box{width: 100%; height: 1000px; background: #0A0A0A;}
 div#third-box{width: 100%; height: 1000px; background: #000;}
-::-webkit-scrollbar{width: 0px; background: #111; display: none;}
-::-webkit-scrollbar-thumb{width: 0px; background: #222; display: none;} 
+::-webkit-scrollbar{width: 7px; background: #000;}
+::-webkit-scrollbar-thumb{width: 7px; background: #111;}
