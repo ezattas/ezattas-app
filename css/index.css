@@ -1,5 +1,6 @@
 /*configurações padrão*/
 @font-face {font-family: Ubuntu; src: url(../fonts/ubuntu.ttf)}
+@font-face {font-family: Consolas; src: url(../fonts/consolas.ttf)}
 *{margin: 0; padding: 0;}
 body{background: #000; color: #FFF;}
 section{display: block;}
