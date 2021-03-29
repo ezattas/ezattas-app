@@ -1,1 +1,82 @@
-<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1033.99 1034"><defs><style>.cls-1{fill:#000;}.cls-2{fill:#fff;}</style></defs><title>Sem título-2</title><path class="cls-1" d="M1477,540c0,285.53-231.47,517-517,517S443,825.53,443,540h0C443,254.47,674.47,23,960,23s517,231.47,517,517" transform="translate(-443 -23)"/><ellipse class="cls-2" cx="815.96" cy="261.72" rx="227.14" ry="114.89" transform="translate(-476.15 123.39) rotate(-10.05)"/><path class="cls-2" d="M1156.42,540c123.49-123,204-237.36,161.76-289.67C1263.4,182.47,1072.28,285,874,445.08c-39.62,32-77.18,63.86-110.44,94.92-123.49,123-204,237.36-161.76,289.67C656.6,897.53,847.72,795,1046,634.92c39.62-32,76.53-63.86,109.79-94.91" transform="translate(-443 -23)"/><ellipse class="cls-2" cx="1104.04" cy="818.28" rx="227.14" ry="114.89" transform="translate(-568.85 182.2) rotate(-10.05)"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="99.992264"
+   inkscape:export-xdpi="99.992264"
+   inkscape:export-filename="C:\Users\carli\Downloads\ezattas.png"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="ezattas.svg"
+   version="1.1"
+   viewBox="0 0 1033.99 1034"
+   data-name="Camada 1"
+   id="Camada_1">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>eZattas</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="Camada_1"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:cy="564.88294"
+     inkscape:cx="424.79964"
+     inkscape:zoom="0.40135397"
+     showgrid="false"
+     id="namedview17"
+     inkscape:window-height="1001"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#3850B0;}.cls-2{fill:#000;}</style>
+  </defs>
+  <title
+     id="title6">eZattas</title>
+  <ellipse
+     class="cls-2"
+     cx="345.66263"
+     cy="322.68796"
+     rx="211.65318"
+     ry="107.0566"
+     transform="rotate(-10.05)"
+     id="ellipse845"
+     style="fill:#3850b0;fill-opacity:1;stroke-width:0.93182" />
+  <path
+     class="cls-2"
+     d="M 713.91527,516.7381 C 828.98553,402.1245 904.0062,295.56173 864.6462,246.81832 813.6012,183.58514 635.5121,279.12446 450.75119,428.28995 413.83256,458.10807 378.83347,487.79588 347.8412,516.7381 232.77097,631.35173 157.7503,737.91442 197.1103,786.65782 c 51.06363,63.2332 229.15272,-32.30613 413.91362,-181.47155 36.91864,-29.81822 71.31203,-59.50593 102.30431,-88.43881"
+     id="path847"
+     style="fill:#3850b0;fill-opacity:1;stroke-width:0.93182" />
+  <ellipse
+     class="cls-2"
+     cx="519.48376"
+     cy="880.18616"
+     rx="211.65318"
+     ry="107.0566"
+     transform="rotate(-10.05)"
+     id="ellipse849"
+     style="fill:#3850b0;fill-opacity:1;stroke-width:0.93182" />
+</svg>
