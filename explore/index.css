@@ -41,5 +41,5 @@ canvas#loading{background: transparent; width: 100px; height: 100px; top: 50%; t
 	div#card{width: calc(100% - 10px)}
 	div#card{display: block;}
     div#video{width: 100%; height: 45%;}
-    div#content{width: 100%; height: 55%;}
+    div#content{width: 100%; height: 55%; overflow: auto;}
 }
