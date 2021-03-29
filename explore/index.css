@@ -25,18 +25,18 @@ span{position: absolute; background-color: #222; transform: translate(-50%, -50%
 	0%{width: 0px; height: 0px; opacity: 0.5}
 	100%{width: 500px; height: 500px; opacity: 0}}
 nav#timeline{width: 80%; height: 700px; background: transparent; margin-left: 50%; transform: translateX(-50%);}
-div#card{width: 100%; height: 75%; background: #111; top: 50%; position: absolute; transform: translateY(-50%); display: flex; border-radius: 5px}
-div#video{width: 50%; height: 100%; background: #000; border-radius: 0px; border: 5px solid #111;}
-div#content{width: 50%; height: 100%; background: #111; border-radius: 0px; border: 5px solid #111;}
+div#card{width: 100%; height: 75%; background: #0A0A0A; top: 50%; position: absolute; transform: translateY(-50%); display: flex; border-radius: 5px}
+div#video{width: 50%; height: 100%; background: #000; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border: 5px solid #0A0A0A;}
+div#content{width: 50%; height: 100%; background: #0A0A0A; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border: 5px solid #0A0A0A;}
 video{width: 100%; height: 100%}
 ::-webkit-scrollbar{width: 7px; background: #000;}
 ::-webkit-scrollbar-thumb{width: 7px; background: #111;}
 div#pre-loader{width: 100%; height: 100%; position: fixed; z-index: 100; background: #000; top: 0; justify-content: center; display: flex;}
 canvas#loading{background: transparent; width: 100px; height: 100px; top: 50%; transform: translateY(-50%); position: absolute;}
 @media screen and (max-width: 500px) {
-	nav#timeline{width: 95%}
+	nav#timeline{width: 95%; height: 1000px}
 	div#card{width: calc(100% - 10px)}
 	div#card{display: block;}
-    div#video{width: 100%; height: 50%}
-    div#content{width: 100%; height: 50%}
+    div#video{width: 100%; height: 50%; border-top-right-radius: 5px;}
+    div#content{width: 100%; height: 50%; border-top-right-radius: 0; border-bottom-left-radius: 5px;}
 }
